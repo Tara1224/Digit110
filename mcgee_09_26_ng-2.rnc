@@ -1,0 +1,20 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = root
+root = element root {intro, recipe, conclusion}
+
+intro = element intro {mixed{dessert+ & place* & time* & person* & title}}
+dessert = element dessert {kind, text}
+place = element place {text}
+time = element time {text}
+person = element person {text}
+title = element title {text}
+
+recipe = element recipe {mixed {step_original+ & step+ & ing+}}
+step_original = element step_original{num, text}
+step = element step {num, text,kind*} 
+ing = element ing {text}
+kind = attribute kind {text}
+num = attribute num {xsd:integer}
+
+conclusion = element conclusion {text}
