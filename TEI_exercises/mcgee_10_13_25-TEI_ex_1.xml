@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mary Behrend's Calendar Sheets</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Digit 110: TEI Exercise Encoding</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Calendar sheets from Mary Behrend Collection, including handwritten notes by
+               E.R.B.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <div type="calendar">
+            <div type="calendar_entry" n="1909-01-30">
+               <head>January 30, 1909 </head>
+               <note place="top"> Copyright 1908, by Friendship Calendar Co., New Britain, Conn. </note>
+               <figure>
+                  <figDesc>Illustration of a man sitting up in bed, with a lamp and clock on the
+                     table.</figDesc>
+               </figure>
+               <note place="margin">Written in cursive handwriting, signed "E.R.B."</note>
+               <lg type="verse">
+                  <l>That damned old clock</l>
+                  <l>Gives me a shock—</l>
+                  <l>Pale morning where it's dark.</l>
+                  <l>It likes the fun, but I'm begun</l>
+                  <l>To tire of the lark!</l>
+               </lg>
+            </div>
+
+            <div type="calendar_entry" n="1909-02-16">
+               <head>February 16, 1909</head>
+               <note place="top">Copyright 1908, by Friendship Calendar Co., New Britain,
+                  Conn.</note>
+               <figure type="illustration">
+                  <figDesc>Illustration of a man holding a large insect in his hand near a window or
+                     outdoors, with a tree visible beside him.</figDesc>
+               </figure>
+               <note place="margin">Written in cursive handwriting, in black and red ink.</note>
+               <lg>
+                  <l>Mr. Behrend finds a big bug!</l>
+                  <l><hi rend="color(red)">I wonder if you have found many lately.</hi></l>
+               </lg>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
