@@ -1,8 +1,6 @@
 body {
-
-    /*background:papayaWhip*/
-    background: LightSteelBlue;
-    font-family: Comic-sans, Arial, Helvetica, sans-serif;
+    background-color: #B563F8; /* bright lavender purple */
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
 }
 
 div.side-by-side {
@@ -13,8 +11,14 @@ img {
     width: 59%;
     max-width: 500px;
 }
+nav {
+  background-color: white;
+  padding: 10px;
+}
 
-.featureBlock {
-    background-color:pink;
-    font-size: smaller;
+nav a {
+  color: #B563F8;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
 }
