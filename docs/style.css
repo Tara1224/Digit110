@@ -1,0 +1,24 @@
+body {
+    background-color: #B563F8; /* bright lavender purple */
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+}
+
+div.side-by-side {
+    display: flex;
+}
+
+img {
+    width: 59%;
+    max-width: 500px;
+}
+nav {
+  background-color: white;
+  padding: 10px;
+}
+
+nav a {
+  color: #B563F8;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+}

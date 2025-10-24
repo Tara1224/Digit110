@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <!-- a red stamp is seen pasted on lines 5-10. It begins on bucket and ends on man. In the middle of the stamp is an eagle-->
+    <title poem="BALLAD OF BOOKER T."/>
+    <line> by</line>
+    <line>
+        <author>Langston Hughes</author>
+    </line>
+    <stanza>
+        <line num="1">Booker T.</line>
+        <line num="2">Was a practical man. </line>
+        <line num="3">He said, Till the soil </line>
+        <line num="4">And learn from the land. </line>
+        <line num="5">Let down your <marking stamp_red="begins"/>bucket </line>
+        <line num="6">Where you are. <marking stamp_red="no"/></line>
+        <line num="7">Your fate is here </line>
+        <marking stamp_red="yes"/>
+        <line num="8">And not afar. </line>
+        <marking stamp_red="no"/>
+        <line num="9">To help yourself </line>
+        <marking stamp_red="yes"/>
+        <line num="10">And your fellow man,<marking stamp_red="ends"/></line>
+        <line num="11">Train your head, </line>
+        <line num="12">Your heart, <underlined>and your hand</underlined>. </line>
+        <line num="13">For smartness alone's </line>
+        <line num="14">Surely not meet— </line>
+        <line num="15">If you haven't at the same time </line>
+        <line num="16">Got something to eat. </line>
+        <line num="17">Thus at Tuskegee </line>
+        <line num="18">He built a school </line>
+        <line num="19">With book-learning there </line>
+        <line num="20">And the workman's tool. </line>
+        <line num="21">He started out </line>
+        <line num="21">In a simple way— </line>
+        <line num="22">For yesterday </line>
+        <line num="23">Was <underlined>not</underlined> today.</line>
+        <line num="24">Sometimes he had </line>
+        <line num="25">Compromise in his talk— </line>
+        <line num="26">For a man must crawl </line>
+        <line num="27">Before he can walk— </line>
+        <line num="28">And in Alabama in '85 </line>
+        <line num="29">A joker was lucky </line>
+        <line num="30">To be alive. </line>
+        <line num="31">But Booker T. </line>
+        <line num="32">Was nobody's fool: </line>
+        <line num="33">You may carve a dream </line>
+        <line num="34">With an humble tool. </line>
+        <line num="35">The tallest tower </line>
+        <line num="36">Can tumble down </line>
+        <line num="37">If it be not rooted </line>
+        <line num="38">In solid ground. </line>
+        <line num="39">So, being a far-seeing</line>
+        <line num="40">Practical man,</line>
+        <line num="41">He said, Train your head, </line>
+        <line num="42">Your heart, <underlined>and your hand</underlined>. </line>
+        <line num="43">Your fate is here </line>
+        <line num="44">And not afar, </line>
+        <line num="45"><speech washington_quote="start"></speech>So let down your bucket </line>
+        <line num="46">Where you are.<speech washingston_quote="end"/></line>
+    </stanza>
+    <!-- underneath "you are." Begins Langston Hughes signiture. Underneath is the "information" written bellow-->
+    <information><line>Final draft. </line>
+    <line>Holby Hills farm,</line>
+    <line><city>Monterey</city>, <state>California</state>,</line>
+    <line><month>June</month> <date>1</date>, <year>1841</year>.</line></information> 
+    
+</root>

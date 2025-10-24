@@ -1,0 +1,16 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start= recipe
+recipe= element recipe {instructions,ingredients}
+
+instructions = element instructions {step+ & variations? & note?}
+step = element step {attribute num { xsd:integer} , text}
+
+variations = element variations {alternative_cookie+}
+alternative_cookie = element alternative_cookie {attribute num {xsd:integer} , text}
+
+note = element note { attribute region { xsd:string } , text }
+
+ingredients = element ingredients {ing+}
+ing = element ing {optional? ,text}
+optional = attribute optional { "true" }
