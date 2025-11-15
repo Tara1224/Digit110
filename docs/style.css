@@ -148,5 +148,57 @@ nav a:hover {
     max-width: 700px;
     margin: 0 auto 15px auto;
 }
+/* ----- CORPUS PAGE CONTAINER ----- */
+.compare-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 30px auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* ----- TITLE FOR CORPUS SECTIONS ----- */
+.compare-title {
+    text-align: center;
+    color: #4B0082; 
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* ----- SIDE-BY-SIDE FLEX LAYOUT ----- */
+.side-by-side {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;  
+    margin-bottom: 25px;
+}
+
+/* ----- INDIVIDUAL IMAGE FRAMES ----- */
+.side-by-side figure {
+    text-align: center;
+    margin: 0;
+}
+
+.side-by-side img {
+    width: 300px;
+    height: 220px;    
+    object-fit: cover;  
+    border-radius: 10px;
+    border: 3px solid #DDA0DD;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+/* ----- TEXT BELOW IMAGES ----- */
+.compare-text {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    color: #333;
+    max-width: 800px;
+    margin: 10px auto 30px auto;
+}
 
 
